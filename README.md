@@ -1,15 +1,17 @@
 # RefreshList
 0、写在前面 <br>
-用React Native也有一段时间了，新出来的加载列表控件FlatList也出来了，FlatList本身是支持下拉刷新和上拉加载更多的，而且性能比ListView要强，但是Android和IOS要统一下拉头，所以只能重写这个控件，但是网上找半天没有找到基于FlatList，只是找到这个 [react-native-pull](https://github.com/greatbsky/react-native-pull) 基于ListView的，所以自己动手丰衣足食，顺便锻炼一下自己的React Native技能，但是是基于react-native-pull它的，站在巨人肩膀可以看的更远。[项目源码地址](https://github.com/gzfgeh/RefreshList), [Demo地址](https://github.com/gzfgeh/RefreshListDemo)喜欢的给个star，谢谢！
+  用React Native也有一段时间了，新出来的加载列表控件FlatList也出来了，FlatList本身是支持下拉刷新和上拉加载更多的，而且性能比ListView要强，但是Android和IOS要统一下拉头，所以只能重写这个控件，但是网上找半天没有找到基于FlatList，只是找到这个 [react-native-pull](https://github.com/greatbsky/react-native-pull) 基于ListView的，所以自己动手丰衣足食，顺便锻炼一下自己的React Native技能，但是是基于react-native-pull它的，站在巨人肩膀可以看的更远。[项目源码地址](https://github.com/gzfgeh/RefreshList), [Demo地址](https://github.com/gzfgeh/RefreshListDemo)喜欢的给个star，谢谢！<br>
+
+
 1、特点 <br>
 
-  0- 纯js跨平台 <br>
-  1- Android、IOS 统一下拉头 <br>
-  2- 下拉刷新和上拉加载 <br>
-  3- 加载中、正常显示、空数据、网络异常等情况的处理，用户不用关心 <br>
-  4- 控件是基于最新的FlatList <br>
-  5- 以上情况都支持自定义 <br>
-  6- FlatList自身支持的 单击Item，添加头部等 <br>
+    0- 纯js跨平台 <br>
+    1- Android、IOS 统一下拉头 <br>
+    2- 下拉刷新和上拉加载 <br>
+    3- 加载中、正常显示、空数据、网络异常等情况的处理，用户不用关心 <br>
+    4- 控件是基于最新的FlatList <br>
+    5- 以上情况都支持自定义 <br>
+    6- FlatList自身支持的 单击Item，添加头部等 <br>
 
 2、直接上效果图 <br>
   下面效果图有点失真，录制有误，真实情况不卡，真实情况不卡，真实情况不卡！！！ <br>
@@ -51,12 +53,12 @@
         renderMore 加载更多 自定义 <br>
 
 4、Demo <br>
-以上说了那么多估计还是模糊，还是直接上Demo
+  以上说了那么多估计还是模糊，还是直接上Demo
 [Demo地址](https://github.com/gzfgeh/RefreshListDemo) <br>
 5、参考文章 <br>
-[https://facebook.github.io/react-native/docs/flatlist.html](https://facebook.github.io/react-native/docs/flatlist.html)
-[https://github.com/greatbsky/react-native-pull](https://github.com/greatbsky/react-native-pull)
-[https://github.com/gzfgeh/RefreshListDemo](https://github.com/gzfgeh/RefreshListDemo)
-[https://github.com/gzfgeh/RefreshList](https://github.com/gzfgeh/RefreshList)
+  [https://facebook.github.io/react-native/docs/flatlist.html](https://facebook.github.io/react-native/docs/flatlist.html)
+  [https://github.com/greatbsky/react-native-pull](https://github.com/greatbsky/react-native-pull)
+  [https://github.com/gzfgeh/RefreshListDemo](https://github.com/gzfgeh/RefreshListDemo)
+  [https://github.com/gzfgeh/RefreshList](https://github.com/gzfgeh/RefreshList)
 
-最后，喜欢的给个star，谢谢！
+  最后，喜欢的给个star，谢谢！
