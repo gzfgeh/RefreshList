@@ -2,6 +2,4 @@
 
 import RefreshList from './RefreshList';
 
-export {
-    RefreshList
-};
+module.exports = RefreshList;

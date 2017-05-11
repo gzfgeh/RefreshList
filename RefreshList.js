@@ -96,6 +96,14 @@ export default class RefreshList extends Pullable {
     }
 
     /**
+     * 对外提供API, 加载更多
+     */
+    resumeMoreDataFromError(){
+        this.currentState = MoreState;
+        this.props.onEndReached();
+    }
+
+    /**
      * 加载loading页面
      * @returns {XML}
      * @private
@@ -179,7 +187,7 @@ export default class RefreshList extends Pullable {
                     <TouchableHighlight
                         style={styles.footer}
                         underlayColor="rgba(34, 26, 38, 0.1)"
-                        onPress={()=> {this.props.onEndReached}}>
+                        onPress={()=> {this.resumeMoreDataFromError()}}>
                         <Text>网络错误, 点击重新加载</Text>
                     </TouchableHighlight>
                 )
