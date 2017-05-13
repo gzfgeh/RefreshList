@@ -56,9 +56,9 @@
   以上说了那么多估计还是模糊，还是直接上Demo
 [Demo地址](https://github.com/gzfgeh/RefreshListDemo) <br>
 5、参考文章 <br>
-  [https://facebook.github.io/react-native/docs/flatlist.html](https://facebook.github.io/react-native/docs/flatlist.html)
-  [https://github.com/greatbsky/react-native-pull](https://github.com/greatbsky/react-native-pull)
-  [https://github.com/gzfgeh/RefreshListDemo](https://github.com/gzfgeh/RefreshListDemo)
-  [https://github.com/gzfgeh/RefreshList](https://github.com/gzfgeh/RefreshList)
+  [https://facebook.github.io/react-native/docs/flatlist.html](https://facebook.github.io/react-native/docs/flatlist.html) <br>
+  [https://github.com/greatbsky/react-native-pull](https://github.com/greatbsky/react-native-pull) <br>
+  [https://github.com/gzfgeh/RefreshListDemo](https://github.com/gzfgeh/RefreshListDemo) <br>
+  [https://github.com/gzfgeh/RefreshList](https://github.com/gzfgeh/RefreshList) <br>
 
   最后，喜欢的给个star，谢谢！
